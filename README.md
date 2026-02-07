@@ -32,12 +32,12 @@
 - 移植开源flac解码库
 
 ## 五、项目结构
-├── Libraries/ # 依赖hal库文件
-├── Output/ # 编译输出文件（.axf、.hex 等）
-├── Project/ # Keil 工程文件
-├── User/ # 业务代码（主函数、FLAC 解码逻辑、、FLAC 库、BSP 驱动）
-├── README.md # 项目说明文档
-└── keilkill.bat # Keil 工程清理脚本
+- Libraries/ # 依赖hal库文件
+- Output/ # 编译输出文件（.axf、.hex 等）
+- Project/ # Keil 工程文件
+- User/ # 用户代码（主函数、FLAC 解码逻辑、、FLAC 库、BSP 驱动）
+- README.md # 项目说明文档
+- keilkill.bat # Keil 工程清理脚本
 
 ## 六、注意事项
 ⚠️ **存储说明**：
